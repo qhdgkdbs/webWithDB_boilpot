@@ -1,3 +1,4 @@
+//스키마 설정하는 과정
 const mongoose = require('mongoose')
 
 const userSchema = mongoose.Schema({
@@ -22,7 +23,7 @@ const userSchema = mongoose.Schema({
         type : Number,
         default : 0
     },
-    imgae : String,
+    image : String,
     token : {
         type : String,
     },
